@@ -1,6 +1,6 @@
 {
   "name": "parse-server-multi-files-adapter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/stephentuso/parse-server-multi-files-adapter#readme",
   "dependencies": {
-    "_subsume": "^1.0.0"
+    "subsume": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^4.3.0",
