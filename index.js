@@ -2,8 +2,8 @@ const Subsume = require('subsume')
 
 function MultiFilesAdapter (options) {
   this._subsume = new Subsume(options.id)
-  this._adapters = options._adapters
-  this._defaultAdapter = options._defaultAdapter
+  this._adapters = options.adapters
+  this._defaultAdapter = options.defaultAdapter
 }
 
 MultiFilesAdapter.prototype.createFile = function (filename, data, contentType) {
