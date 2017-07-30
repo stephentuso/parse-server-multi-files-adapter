@@ -26,6 +26,7 @@ const GCSAdapter = require('parse-server-gcs-adapter')
 
 const multiAdapter = new MultiFilesAdapter({
   // Delimiter used to retrieve adapter key
+  // Never change this
   id: 'unique', 
   
   // Dictionary of file adapters
@@ -43,6 +44,7 @@ const multiAdapter = new MultiFilesAdapter({
   },
   
   // The key of the file adapter to use if none specified
+  // Never change this
   defaultAdapter: 's3'
 })
 
