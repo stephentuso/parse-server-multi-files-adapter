@@ -92,3 +92,15 @@ file.save()
       console.log('Saved')
     })
 ```
+
+The saved file name in the example above would be `Qq-unique-qQlocalZz-unique-zZfoobar.txt`.
+If not using JS, you can replicate that functionality:
+
+```
+ID = Delimiter you chose
+AdapterKey = Key of adapter to use
+prefix = "Qq-" + ID + "-qQ"
+suffix = "Zz-" + ID + "-zZ"
+composed = prefix + AdapterKey + suffix
+filename = composed + original file name
+```
