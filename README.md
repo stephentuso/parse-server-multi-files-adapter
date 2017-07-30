@@ -58,12 +58,12 @@ const api = new ParseServer({
 ### Client
 
 The adapter key (corresponding to a key in the `adapters` object above) must be embedded in the filename.
-This uses [subsume](https://github.com/sindresorhus/subsume) to parse the filename and determine the adapter key.
+This uses [subsume-limited](https://github.com/stephentuso/subsume-limited) to parse the filename and determine the adapter key.
 If writing a JS app you could do something like this to help create files:
 
 ```javascript
 // Utils
-const Subsume = require('subsume')
+const Subsume = require('subsume-limited')
 
 const subsume = new Subsume('unique') // same id that was passed to constructor on server
 

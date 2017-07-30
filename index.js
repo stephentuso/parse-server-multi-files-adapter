@@ -1,4 +1,4 @@
-const Subsume = require('subsume')
+const Subsume = require('subsume-limited')
 
 function MultiFilesAdapter (options) {
   this._subsume = new Subsume(options.id)
