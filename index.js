@@ -1,3 +1,4 @@
+'use strict'
 const Subsume = require('subsume-limited')
 
 class MultiFilesAdapter {
