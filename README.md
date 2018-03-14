@@ -1,5 +1,7 @@
 # parse-server-multi-files-adapter [![npm version](https://img.shields.io/npm/v/parse-server-multi-files-adapter.svg?style=flat)](https://www.npmjs.com/package/parse-server-multi-files-adapter)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stephentuso/parse-server-multi-files-adapter.svg)](https://greenkeeper.io/)
+
 Allows multiple file adapters to be used at the same time by specifying the adapter in the filename.
 
 ## Installation
